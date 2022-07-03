@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>signupform</title>
+</head>
+<body>
+    <header>
+        <img src="./images/canada.jpeg" alt=""/>
+        <div class="hero-head">
+            <img
+                src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" 
+                alt=""
+                class="logo"
+            />
+            <h1>Ozark</h1>
+        </div>
+        <div class="credits">
+            <p>
+                Image by Geo from <a>Geo.fr</a>
+            </p>
+
+        </div>
+    </header>
+    <main>
+        <div class="description">
+            <p>
+                This is not real online service! You know 
+                you need something<br/>like this in your life 
+                to help you realize your deepest dream.<br/>
+                Sign up now to get started.
+            </p>
+            <p>You know you want to!</p>
+        </div>
+        <div class="form-section">
+            <p>Let's do this!</p>
+            <form>
+                <div>
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name" required/>
+                </div>
+                <div>
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" required/>
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required/>
+                </div>
+                <div>
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="number" name="phoneNumber" id="phoneNumber"/>
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required/>
+                </div>
+                <div>
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" required/>
+                </div>
+                <div>
+                    <button type="submit">create account</button>
+                </div>
+            </form>
+
+        </div>
+        <div class="logIn">
+            <p>Already have an account? <a href="#">Log in</a></p>
+
+        </div>
+
+    </main>
+</body>
+</html>
